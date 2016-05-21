@@ -70,4 +70,4 @@ On Linux (going by Ubuntu here, not sure if it's the same across all distributio
 
 ### Contact in case of problems / questions ###
 
-* Me, the repo owner. Contact through bitbucket or email at sharkie.jeroen@gmail.com
+Create an issue on this repository.

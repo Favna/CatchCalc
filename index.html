@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>CatchCalc by Favna</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">CatchCalc</h1>
+      <h2 class="project-tagline">CatchCalc is a simple in Java written program that can calculate the chance of capture a pokémon</h2>
+      <a href="https://github.com/Favna/CatchCalc" target="_blank" class="btn">View on GitHub</a>
+      <a href="https://github.com/Favna/CatchCalc/zipball/master" class="btn">Download source (.zip)</a>
+      <a href="https://github.com/Favna/CatchCalc/tarball/master" class="btn">Download source (.tar.gz)</a>
+	  <a href="https://github.com/Favna/CatchCalc/releases/download/2.1/CatchCalc.jar" class="btn">Download program (.jar)</a>
+    </section>
+
+    <section class="main-content">
+      <h3>
+
+<a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Welcome to the CatchCalc</h3>
+
+<p>On this page you can find basic information on using CatchCalc as well as the program. If you are only looking for the downloads please refer to the buttons above. In order to run this program you require to have Java Runtime Evironment (commonly referred to as just "Java" or it's acronym JRE) installed. If you do not know if you have this installed I recommend you download the tool and if it runs perfectly (see screenshots below) then you do. If you do not have Java installed please get it here:
+</p>
+
+<p>
+<a href="https://java.com/en/download/" class="javabtn">Download Java</a>
+</p>
+
+<h3>
+<a id="Introduction" class="anchor" href="#Introduction" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Introduction</h3>
+
+<p>CatchCalc is a simple in Java written program that can calculate the chance of capture a pokémon given the pokémon Max HP and current HP. While a couple of steps are still required to actually know these values (explained below), it is wishful thinking to hope that in a future game we'll actually be able to see values rather than green bars. To utilize CatchCalc best I highly recommend you carry a Pokémon that knows the move False Swipe or Hold Back to put the opposing Pokémon at 1 HP!!</p>
+
+<h3>
+<a id="Instructions" class="anchor" href="#Instructions" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>CatchCalc Instructions</h3>
+
+<p>
+In order to use CatchCalc you will have to know the opposing Pokémon's HP (given that you're not using a master ball). As it stands GameFreak does not give us an option to view the exact HP value of the opposing Pokémon so the best we can do for now is make an estimate, and to play it safe that estimate should be the highest possible value (that is, having 31 IVs in HP). In order to find this value please follow the steps below:
+
+<ol>
+<li><p>That said, for finding out how much HP the pokemon has that you are encountering you can use any battle simulator (i.e. Pokemon Showdown) or save editor (i.e. PKHeX).</p></li>
+
+<li><p>Open up a battle simulator (Pokémon Showdown) or a Pokemon editor (PKHeX / PokeGen etc.)</p></li>
+<li><p>Pick your Pokémon and set the correct level, then make sure the HP IV is set to 31</p></li>
+<dd><p>Now that you know the maximum possible HP value for the opposing Pokemon you can switch to CatchCalc</p></dd>
+<li><p>Enter the maximum possible HP for Maximum HP</p></li>
+<li><p>Ideally the "Current HP" will be 1, that is if you used False Swipe or Hold Back. If not then you are going have to make a guess and I cannot help here</p></li>
+<li><p>Set all your other variables if applicable then press the "Calculate chance to catch" button to have the program do its magic!</p></li>
+</ol>
+</p>
+
+<h3>
+<a id="FAQ" class="anchor" href="#FAQ" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>FAQ
+</h3>
+
+<p>
+Q: It doesn't start!
+<br/>
+A: Make sure you have associated the .jar extension with Java. To do so right click the program then "open with" and then select the Java platform.
+</p>
+
+<p>
+Q: I can't find the Java platform in the list!
+<br/>
+A: If you are certain that you did install the above linked JRE, also go ahead and download the Java Development Kit for your OS. Once you have that installed
+<br/>
+<p>On Windows:</p>
+
+<ul>
+<li>open a command prompt by holding the windows key then pressing R. This will make the Run popup show, in here type <code>cmd.exe</code></li>
+<li>in the command prompt type <code>cd [path-to-where-you-saved-the-program]</code> and hit enter</li>
+<li>then type <code>Java -jar "CatchCalc.jar"</code> including quotation marks!</li>
+</ul>
+
+<p>On Mac (At least this worked for me on my OSX Maverics, I don't use my Mac a lot. at all)</p>
+
+<ul>
+<li>Open Terminal</li>
+<li>Type <code>Java -jar "CatchCalc.jar"</code> including quotation marks!</li>
+</ul>
+
+<p>On Linux (going by Ubuntu here, not sure if it's the same across all distributions)</p>
+
+<ul>
+<li>Open Terminal</li>
+<li>navigate to the folder where the program is, if this is the Downloads folder it will most likely be by typing <code>cd ~/Downloads</code></li>
+<li>Type <code>Java -jar "CatchCalc.jar"</code> including quotation marks!</li>
+</ul>
+</p>
+
+
+
+<h3>
+<a id="Version changes" class="anchor" href="#Version changes" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Version changes</h3>
+
+<p>
+<strong><em>Version 2.2</em></strong>
+<ul>
+<li><p>Corrected that the species box would show generation 1 when choosing a different ball</p></li>
+</ul>
+</p>
+
+<p>
+<strong><em>Version 2.1</em></strong>
+<ul>
+<li><p>Corrected spelling mistakes</p></li>
+<li><p>Code refactoring</p></li>
+<li><p>Added the option to select either XY or ORAS - catch rates were modified between these two games</p></li>
+</ul>
+</p>
+
+<p>
+<strong><em>Version 2.0:</em></strong>
+<ul>
+<li><p>Complete rewrite of the code from the ground up</p></li>
+</ul>
+</p>
+
+<p>
+<strong><em>Version 1.0:</em></strong>
+<ul>
+<li><p>Initial release</p></li>
+</ul>
+</p>
+
+<h3>
+<a id="Support or Contact" class="anchor" href="#Support or Contact" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Support or Contact
+</h3>
+
+<p>The best way to get in contact with me is either through <a href="https://twitter.com/favna_" target="_blank">My Twitter</a> or by creating <a href="https://github.com/Favna/CatchCalc/issues" target="_blank">creating an issue on the github page</a></p>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/Favna/CatchCalc">Catchcalc</a> is maintained by <a href="https://github.com/Favna">Favna</a>.</span>
+      </footer>
+
+    </section>
+
+  
+  </body>
+</html>

@@ -263,6 +263,7 @@ public class Controller extends JFrame {
         cbxStatus.setModel(varData.getStatusOptions());
         cbxSpecies.setModel(varData.getGen1species());
         cbxInput1.setModel(varData.getEmptySelect());
+        cbxInput2.setModel(varData.getEmptySelect());
     }
 
     private void addingListeners() {
@@ -296,6 +297,7 @@ public class Controller extends JFrame {
             @Override
             public void itemStateChanged(ItemEvent e) {
                 anotherBallSelected();
+                selectedBall = cbxBall.getSelectedIndex();
             }
         });
 
@@ -399,7 +401,8 @@ public class Controller extends JFrame {
             default:
                 lblVariable.setText("");
                 setComponentVisibility(false, false, false, false, false);
-                setDefaultModels();
+                cbxInput1.setModel(varData.getEmptySelect());
+                cbxInput2.setModel(varData.getEmptySelect());
                 break;
         }
     }

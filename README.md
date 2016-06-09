@@ -1,2 +1,13 @@
-# ConvertBot
-ConverBot is a simple unit conversion tool I made 4 years back. It will basically only have 1 commit and 1 release as I have no intention to look at it any further or anything. I just figured I'd throw it on github.
+# CatchCalc #
+
+CatchCalc is a simple in Java written program that can calculate the chance of capture a pokémon given the pokémon Max HP and current HP. While a couple of steps are still required to actually know these values (one method explained below), it is wishful thinking to hope that in a future game we'll actually be able to see values rather than green bars.
+
+
+###Instructions / FAQ / etc
+
+[Please refer to the CatchCalc webpage](http://favna.github.io/CatchCalc/ "Github Page")|
+:--|
+
+### Contact in case of problems / questions ###
+
+Create an [issue](https://github.com/Favna/CatchCalc/issues) or contact me on [Twitter](https://twitter.com/favna_)

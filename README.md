@@ -5,7 +5,7 @@ CatchCalc is a simple in Java written program that can calculate the chance of c
 
 ###Instructions / FAQ / etc
 
-[Please refer to the CatchCalc webpage](http://favna.github.io/CatchCalc/ "Github Page")|
+[Please refer to the CatchCalc webpage](http://catchcalc.favna.xyz)|
 :--|
 
 ### Contact in case of problems / questions ###
